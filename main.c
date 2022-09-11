@@ -27,6 +27,7 @@ int main() {
 
   printf("%cHola! Ingresa tu nombre, por favor:\n", 173);
   gets(nombre_usuario);
+  printf("\n\n");
 
   // Solicitar cantidades
   int cantidad1, cantidad2, cantidad3;
@@ -34,20 +35,25 @@ int main() {
 
   printf("1. Ingresa una cantidad entera, por favor:\n");
   scanf("%d", &cantidad1);
+  printf("\n");
 
   printf("2. Ingresa una cantidad entera, por favor:\n");
   scanf("%d", &cantidad2);
+  printf("\n");
 
   printf("3. Ingresa una cantidad entera, por favor:\n");
   scanf("%d", &cantidad3);
+  printf("\n");
 
   printf("4. Ingresa una cantidad decimal, por favor:\n");
   scanf("%f", &cantidad4);
+  printf("\n");
 
   printf("5. Ingresa una cantidad decimal, por favor:\n");
   scanf("%f", &cantidad5);
+  printf("\n");
 
-  printf("Gracias :D");
+  printf("Gracias :D\n\n\n");
 
   // Calcular promedio
   float media_aritmetica =
@@ -55,9 +61,9 @@ int main() {
 
   // Mostrar resultados
   printf("Su nombre es: %s\n", nombre_usuario);
-  printf("Las cantidades ingresadas son: %d, %d, %d, %f, %f\n", cantidad1,
+  printf("Las cantidades ingresadas son: %d, %d, %d, %.3f, %.3f\n", cantidad1,
          cantidad2, cantidad3, cantidad4, cantidad5);
-  printf("El promedio de las cantidades es: %f\n", media_aritmetica);
+  printf("La aritm%ctica es: %.3f\n\n\n", 130, media_aritmetica);
 
   // Mensaje final
   printf("Gracias por usar este programa :D");
